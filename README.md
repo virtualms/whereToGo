@@ -15,6 +15,7 @@ About Open Images you can download directly from the previous link a subset of d
 <p align="center">
   <img src="https://user-images.githubusercontent.com/50915778/119223345-2973a580-baf9-11eb-947d-940af23bbe0c.png">
 </p>
+
 The obtained dataset was also extended using data augmentation through OpenCV filters. It is composed of Training, Validation, Testing in 70-15-15 proportion and provided of YOLO compliant labels. The structure is how it follows, with label `door` and label `handle` balanced:
 
 Data Augmentation | Total size | Train | Validation | Test
