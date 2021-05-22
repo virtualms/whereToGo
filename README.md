@@ -17,11 +17,11 @@ No | 1435 | 1005 | 215 | 215
 Yes | 5740 | 4020 | 860 | 860
 
 You can download our dataset here:
-* with data augmentation : [drive link](https://drive.google.com/file/d/1FP9JiH5007FYb1c1I9NiMXqRGcvs1FgE/view?usp=sharing)
-* raw: [drive link](https://drive.google.com/file/d/10lpGb3cVTmKh2YXOxObq_v61ImeliROf/view?usp=sharing)
+* with data augmentation: [drive link](https://drive.google.com/file/d/1FP9JiH5007FYb1c1I9NiMXqRGcvs1FgE/view?usp=sharing)
+* w\o data augmentation: [drive link](https://drive.google.com/file/d/10lpGb3cVTmKh2YXOxObq_v61ImeliROf/view?usp=sharing)
 
 This is a summing schema of what we did:
-![Image of Worflow]https://scontent.ccdn.cloud/image/nospoiler/effea062-5751-480f-a796-14aa5d07edae/hulk-hogan-wwf-1080x1080.jpg)
+![Image of Worflow](https://drive.google.com/file/d/17QDCTpT05dYJ_twg9mmNGGEBEf1FZMQY/view?usp=sharing)
 
 # Training
 As introduced before, we trained YOLOv5s with two different input size: 320x320 and 640x640. We report the metrics (Precision, Recall, mAP@0.5, mAP@0.5:0.95) obtained for these training on the `custom dataset`. Both training were ran with `batch-size=32`, `epochs=250`.
@@ -40,7 +40,7 @@ All | 0.98 | 0.973 | 0.988 | 0.833
 Door | 0.971 | 0.977 | 0.99 | 0.876
 Handle | 0.989 | 0.989 | 0.987 | 0.79
 
-
+If you are interested, you can find the network weights in `weights`, or alternatively here for custom dataset with data augmentation: [drive link](https://drive.google.com/drive/folders/1W5yXhwJ8yTndKcrgqteBQXrmCLoTdsWv?usp=sharing).
 
 
  
