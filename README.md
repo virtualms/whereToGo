@@ -24,7 +24,7 @@ You can download our dataset here:
 This is a summing schema of what we did:
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/virtualms/whereToGo/blob/main/demoPics/sisdig_workflow_.jpg">
+  <img src="https://github.com/virtualms/whereToGo/blob/main/demoPics/sisdig_workflow_.jpg">
 </p>
 
 # Training
