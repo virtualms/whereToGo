@@ -21,7 +21,7 @@ You can download our dataset here:
 * w\o data augmentation: [drive link](https://drive.google.com/file/d/10lpGb3cVTmKh2YXOxObq_v61ImeliROf/view?usp=sharing)
 
 This is a summing schema of what we did:
-![Image of Worflow](https://drive.google.com/file/d/17QDCTpT05dYJ_twg9mmNGGEBEf1FZMQY/view?usp=sharing)
+![Image of Worflow](https://github.com/virtualms/whereToGo/blob/main/demoPics/sisdig_workflow_.jpg)
 
 # Training
 As introduced before, we trained YOLOv5s with two different input size: 320x320 and 640x640. We report the metrics (Precision, Recall, mAP@0.5, mAP@0.5:0.95) obtained for these training on the `custom dataset`. Both training were ran with `batch-size=32`, `epochs=250`.
