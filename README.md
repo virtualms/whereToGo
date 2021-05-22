@@ -10,7 +10,7 @@ For this purpose, we used and trainined the network `YOLO`, specially [YOLOv5s](
 
 We started by considering the dataset [DoorDetect-Dataset](https://github.com/MiguelARD/DoorDetect-Dataset), regarding the paper [Robust and Adaptive Door Operation with a Mobile Manipulator Robot](https://arxiv.org/abs/1902.09051). Because of the non-optimal performances we obtained on `door` and `handle` labels, we decided to create our own `custom dataset`, starting from [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html) and using also custom images annotated with [RoboFlow](https://roboflow.com/). 
 
-The dataset was also extended using data augmentation through OpenCV filters. It is composed on Training, Validation, Testing in 70-15-15 proportion and provided of YOLO compliant labels. The structure is how it follows, with label `door` and label `handle` balanced:
+The dataset was also extended using data augmentation through OpenCV filters. It is composed of Training, Validation, Testing in 70-15-15 proportion and provided of YOLO compliant labels. The structure is how it follows, with label `door` and label `handle` balanced:
 
 Data Augmentation | Total size | Train | Validation | Test
 -------------- | ---------- | ----- | ---------- | ----
