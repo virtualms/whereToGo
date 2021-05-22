@@ -28,7 +28,7 @@ This is a summing schema of what we did:
 </p>
 
 # Training
-As introduced before, we trained YOLOv5s with two different input size: 320x320 and 640x640. We report the metrics (Precision, Recall, mAP@0.5, mAP@0.5:0.95) obtained for these training on the `custom dataset`. Both training were ran with `batch-size=32`, `epochs=250`.
+As introduced before, we trained YOLOv5s with two different input size: `320x320` and `640x640`. We report the metrics (Precision, Recall, mAP@0.5, mAP@0.5:0.95) obtained for these training on the `custom dataset`. Both training were ran with `batch-size=32`, `epochs=250`.
 
 640x640:
 Classes | Precision | Recall | mAP@0.5 | mAP0.5:0.95
