@@ -46,7 +46,7 @@ Handle | 0.989 | 0.989 | 0.987 | 0.79
 
 If you are interested, you can find the network weights in `weights`, or alternatively here for custom dataset with data augmentation: [drive link](https://drive.google.com/drive/folders/1W5yXhwJ8yTndKcrgqteBQXrmCLoTdsWv?usp=sharing).
 
-#Conversion in Torchscript
+# Conversion in Torchscript
 Network weights were converted in TorchScript and optimized for the android app. You can check `Export_to_torchscript_simple` for a simple export or `Model_optimization_torch` for and explicit export and some ways to optimize the model for mobile. Also refer to the latest [Pytorch Mobile Performance Recipe](https://pytorch.org/tutorials/recipes/mobile_perf.html?highlight=mobile).
 
 TorchScript weights are available here:
