@@ -3,7 +3,7 @@
 
 `WhereToGo` is an Android app coinceived to help visually impaired or blind people to explore indoor ambients, like for example apartments, offices, markets and so on. The Android App (see the section `Android App`) uses a vocal speech synthesizer to notify the subject of the presence of useful objects inside a room. 
 
-For this version of the project, whe focused upon the two most important objects for this people to move inside a new ambient: doors and handles.
+For this version of the project, whe focused upon the two most important objects for these people to move inside a new ambient: doors and handles.
 
 # Introduction
 For this purpose, we used and trainined the network `YOLO`, specially [YOLOv5s](https://github.com/ultralytics/yolov5) implemented in PyTorch in the latest possible version released by [ultralytics](https://ultralytics.com/). You can find all the Colab notebooks in the `notebook` folder. Also you can run them with minimal adjustments on Jupyter.
