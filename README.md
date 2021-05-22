@@ -1,4 +1,5 @@
 # whereToGo
+![Problem solving-bro(1)](https://user-images.githubusercontent.com/50915778/119220078-ec9fb280-bae8-11eb-9843-946f83acef35.png)
 
 WhereToGo is an Android app coinceived to help visually impaired or blind people to explore indoor ambients, like for example apartments, offices, markets and so on. The Android App (see the section Android App) uses a vocal speech synthesizer to notify the subject of the presence of useful objects inside a room. 
 
@@ -52,3 +53,4 @@ TorchScript weights are available here:
  
 # Android App
 The Android App implement the purpose discussed in introductions, using the best weights obtained from the training phase. You can find the repository following this [LINK].
+
