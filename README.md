@@ -8,9 +8,11 @@ For this version of the project, whe focused upon the two most important objects
 # Introduction
 For this purpose, we used and trainined the network `YOLO`, specially [YOLOv5s](https://github.com/ultralytics/yolov5) implemented in PyTorch in the latest possible version released by [ultralytics](https://ultralytics.com/). You can find all the Colab notebooks in the `notebook` folder. Also you can run them with minimal adjustments on Jupyter.
 
-We started by considering the dataset [DoorDetect-Dataset](https://github.com/MiguelARD/DoorDetect-Dataset), regarding the paper [Robust and Adaptive Door Operation with a Mobile Manipulator Robot](https://arxiv.org/abs/1902.09051). Because of the non-optimal performances we obtained on `door` and `handle` labels, we decided to create our own `custom dataset`, starting from [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html) and using also custom images annotated with [RoboFlow](https://roboflow.com/). 
+We started by considering the dataset [DoorDetect-Dataset](https://github.com/MiguelARD/DoorDetect-Dataset), regarding the paper [Robust and Adaptive Door Operation with a Mobile Manipulator Robot](https://arxiv.org/abs/1902.09051). Because of the non-optimal performances we obtained on `door` and `handle` labels, we decided to create our own `custom dataset`, starting from [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html) and using also custom images annotated with [RoboFlow](https://roboflow.com/).
 
-The dataset was also extended using data augmentation through OpenCV filters. It is composed of Training, Validation, Testing in 70-15-15 proportion and provided of YOLO compliant labels. The structure is how it follows, with label `door` and label `handle` balanced:
+About Open Images you can download directly from the previous link a subset of desired images. For our dataset, we found very useful this tool to select sub-branches of the general dendrogram of Open Images: [OID ToolKit](https://github.com/EscVM/OIDv4_ToolKit). We are grateful to[NanoCode012](https://github.com/NanoCode012) for providing a way to obtain the labels in a YOLO format ([repo](https://github.com/NanoCode012/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format.git).
+
+The obtained dataset was also extended using data augmentation through OpenCV filters. It is composed of Training, Validation, Testing in 70-15-15 proportion and provided of YOLO compliant labels. The structure is how it follows, with label `door` and label `handle` balanced:
 
 Data Augmentation | Total size | Train | Validation | Test
 -------------- | ---------- | ----- | ---------- | ----
