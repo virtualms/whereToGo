@@ -17,8 +17,8 @@ No | 1435 | 1005 | 215 | 215
 Yes | 5740 | 4020 | 860 | 860
 
 You can download our dataset here:
-* with data augmentation : (link1)[https://drive.google.com/file/d/1FP9JiH5007FYb1c1I9NiMXqRGcvs1FgE/view?usp=sharing]
-* raw: (link2)[https://drive.google.com/file/d/10lpGb3cVTmKh2YXOxObq_v61ImeliROf/view?usp=sharing]
+* with data augmentation : [link1](https://drive.google.com/file/d/1FP9JiH5007FYb1c1I9NiMXqRGcvs1FgE/view?usp=sharing)
+* raw: [link2](https://drive.google.com/file/d/10lpGb3cVTmKh2YXOxObq_v61ImeliROf/view?usp=sharing)
 
 
 # Results for the training
