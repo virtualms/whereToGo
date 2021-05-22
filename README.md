@@ -21,6 +21,7 @@ You can download our dataset here:
 * w\o data augmentation: [drive link](https://drive.google.com/file/d/10lpGb3cVTmKh2YXOxObq_v61ImeliROf/view?usp=sharing)
 
 This is a summing schema of what we did:
+
 ![Image of Worflow](https://github.com/virtualms/whereToGo/blob/main/demoPics/sisdig_workflow_.jpg)
 
 # Training
