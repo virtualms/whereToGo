@@ -23,7 +23,9 @@ You can download our dataset here:
 
 This is a summing schema of what we did:
 
-![Image of Worflow](https://github.com/virtualms/whereToGo/blob/main/demoPics/sisdig_workflow_.jpg)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/virtualms/whereToGo/blob/main/demoPics/sisdig_workflow_.jpg">
+</p>
 
 # Training
 As introduced before, we trained YOLOv5s with two different input size: 320x320 and 640x640. We report the metrics (Precision, Recall, mAP@0.5, mAP@0.5:0.95) obtained for these training on the `custom dataset`. Both training were ran with `batch-size=32`, `epochs=250`.
@@ -54,5 +56,5 @@ TorchScript weights are available here:
 # Android App
 The Android App implement the purpose discussed in introductions, using the best weights obtained from the training phase. You can find the repository following this [LINK].
 
-#References
+# References
 > The image from the first section was taken by https://storyset.com/ 
