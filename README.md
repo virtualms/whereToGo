@@ -12,6 +12,9 @@ We started by considering the dataset [DoorDetect-Dataset](https://github.com/Mi
 
 About Open Images you can download directly from the previous link a subset of desired images. For our dataset, we found very useful this tool to select sub-branches of the general dendrogram of Open Images: [OID ToolKit](https://github.com/EscVM/OIDv4_ToolKit). We are grateful to [NanoCode012](https://github.com/NanoCode012) for providing a way to obtain the labels in a YOLO format ([repo](https://github.com/NanoCode012/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format.git)).
 
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/50915778/119223345-2973a580-baf9-11eb-947d-940af23bbe0c.png">
+</p>
 The obtained dataset was also extended using data augmentation through OpenCV filters. It is composed of Training, Validation, Testing in 70-15-15 proportion and provided of YOLO compliant labels. The structure is how it follows, with label `door` and label `handle` balanced:
 
 Data Augmentation | Total size | Train | Validation | Test
