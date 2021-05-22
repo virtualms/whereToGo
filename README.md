@@ -57,4 +57,4 @@ TorchScript weights are available here:
 The Android App implement the purpose discussed in introductions, using the best weights obtained from the training phase. You can find the repository following this [broken link :(]().
 
 # References
-> The image from the first section was taken by https://storyset.com/ 
+> The image from the first section is an ‘Illustration by Freepik Storyset", from https://storyset.com/ 
