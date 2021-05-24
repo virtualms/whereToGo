@@ -56,6 +56,28 @@ You can specify some option that set filters that you want to apply to your data
 Example of `setup.sh` output:
 
 
-![](output.png)
+```
+(sdm) enzo@enzo-N752VX:~/sdm/datacreator$ ./setup.sh -gbt
+You want create a new images db?[Y/n] y
+Insert the new folder name: my_db
+Creating the new folder my_db
+
+Start unzip dataset in /home/enzo/sdm/my_db..
+
+Done.
+Insert new dataset name: my_dt
+Success: my_dt created
+
+Insert train percentage: 70
+Insert validation percentage: 15
+Insert test percentage: 15
+Creating dataset..
+Starting data augemntation:
+	Applying gray..
+	Applying blur..
+	Applying th..
+Done.
+
+```
 
 
