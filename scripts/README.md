@@ -1,8 +1,8 @@
 # Custom dataset with data augmentation
-If you need to create a custom dataset with data augmentation, you can use this guide to do it easliy. We created a custom dataset with `door` and `handle` classes but you can use the scripts for all classes you want by modifying a few lines that we will explain later.
+If you need to create a custom dataset with data augmentation, you can use this guide to do it easliy. We created a custom dataset with `door` and `handle` classes but you can use the scripts for all classes supported by >OIDv4 you want by modifying a few lines that we will explain later.
 
 ## 1. Download OIDv6
-Download the classes you are interested in through this [link](https://storage.googleapis.com/openimages/web/download.html)
+Download the classes you are interested in through this [link](https://storage.googleapis.com/openimages/web/download.html).
 
 ## 2. Set right paths
 Every script has the following section:
@@ -13,7 +13,7 @@ WORK_ENV="/home/enzo/sdm"
 OIDv6="$WORK_ENV/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format/OID"
 DEST="$WORK_ENV/db"
 ```
-Change these paths with those in which you are going to work. It is recommended to install in the `WORK_ENV` path a [python virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) with the OpenCV library in the version suggested in the [README.md](https://github.com/EnzoFama/whereToGo/blob/main/README.md).
+Change these paths according to your desired working directories. It is recommended to install in the `WORK_ENV` path a [python virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) with the OpenCV library in the version suggested in the [README.md](https://github.com/EnzoFama/whereToGo/blob/main/README.md).
 
 ## 3. Set your classes
 You may want to use these scripts with classes that are not `door` and `handle`. To make it edit in [copy_all.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/copy_all.sh) and [label_creator.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/label_creator.sh) scripts the following line:
@@ -21,6 +21,7 @@ You may want to use these scripts with classes that are not `door` and `handle`.
 classes="Door:Handle"
 ```
 entering your classes as in the format shown.
+
 You can also specify how many images to insert in your dataset in [copy_all.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/copy_all.sh) here:
 ```
 
@@ -47,7 +48,7 @@ To create your dataset run the script [setup.sh](https://github.com/EnzoFama/whe
 ```
 ./setup.sh [-htgb]
 ```
-You can specify some option that set filters that you want to apply to your dataset for `data augmentation` such as:
+You can specify some options that set filters that you want to apply to your dataset for `data augmentation` such as:
 * -h: print filters available;
 * -t: apply binary threshold;
 * -b: apply blur;
