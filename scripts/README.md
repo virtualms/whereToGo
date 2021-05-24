@@ -1,8 +1,8 @@
-# Custom dataset with data augemntation
-If you need to create a custom dataset with data augmentation, you can use this guide to do it easly. We used it to create a custom dataset with `door` and `handle` classes but you can use it for all classes you want by modifying a few lines that we will explain later.
+# Custom dataset with data augementation
+If you need to create a custom dataset with data augmentation, you can use this guide to do it easliy. We created a custom dataset with `door` and `handle` classes but you can use the scripts for all classes you want by modifying a few lines that we will explain later.
 
 ## 1. Download OIDv6
-Download the classes that interest you through this [link](https://storage.googleapis.com/openimages/web/download.html)
+Download the classes you are interested in through this [link](https://storage.googleapis.com/openimages/web/download.html)
 
 ## 2. Set right paths
 Every script has the following section:
@@ -13,7 +13,7 @@ WORK_ENV="/home/enzo/sdm"
 OIDv6="$WORK_ENV/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format/OID"
 DEST="$WORK_ENV/db"
 ```
-Change these paths with those in which you are going to work. It is recommended to install in the `WORK_ENV` path a [python virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) with the Opencv library in the version suggested in the [README.md](https://github.com/EnzoFama/whereToGo/blob/main/README.md).
+Change these paths with those in which you are going to work. It is recommended to install in the `WORK_ENV` path a [python virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) with the OpenCV library in the version suggested in the [README.md](https://github.com/EnzoFama/whereToGo/blob/main/README.md).
 
 ## 3. Set your classes
 You may want to use these scripts with classes that are not `door` and `handle`. To make it edit in [copy_all.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/copy_all.sh) and [label_creator.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/label_creator.sh) scripts the following line:
@@ -42,7 +42,7 @@ otherwise use it:
 cp -n * $DEST/images
 ```
 ## 4. Create your dataset
-Before running any script sign in to your [virtual envirnoment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/).
+Before running any script sign in to your [virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/).
 To create your dataset run the script [setup.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/setup.sh) as shown below:
 ```
 ./setup.sh [-htgb]
