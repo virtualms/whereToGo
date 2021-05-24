@@ -13,6 +13,5 @@ WORK_ENV="/home/enzo/sdm"
 OIDv6="$WORK_ENV/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format/OID"
 DEST="$WORK_ENV/db"
 ```
-
-
+Change these paths with those in which you are going to work.it is recommended to install in the `WORK_ENV` path a virtual environment with the Opencv library in the version suggested in the readme on the homepage.
 
