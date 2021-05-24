@@ -54,6 +54,8 @@ You can specify some option that set filters that you want to apply to your data
 * -g: apply gray scale;
 
 Example of `setup.sh` output:
+
+
 ![](output.png)
 
 
