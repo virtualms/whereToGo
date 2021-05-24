@@ -10,7 +10,7 @@ For this purpose, we used and trainined the network `YOLO`, specially [YOLOv5s](
 
 We started by considering the dataset [DoorDetect-Dataset](https://github.com/MiguelARD/DoorDetect-Dataset), regarding the paper [Robust and Adaptive Door Operation with a Mobile Manipulator Robot](https://arxiv.org/abs/1902.09051). Because of the non-optimal performances we obtained on `door` and `handle` labels, we decided to create our own `custom dataset`, starting from [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html) and using also custom images annotated with [RoboFlow](https://roboflow.com/).
 
-About Open Images you can download directly from the previous link a subset of desired images. For our dataset, have found very useful this tool to select sub-branches of the general dendrogram of Open Images: [OID ToolKit](https://github.com/EscVM/OIDv4_ToolKit). We are grateful to [NanoCode012](https://github.com/NanoCode012) for providing a way to obtain the labels in a YOLO format ([repo](https://github.com/NanoCode012/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format.git)).
+About Open Images you can download directly from the previous link a subset of desired images. For our dataset, have found very useful this tool to select sub-branches of the general dendrogram of Open Images (shown below): [OID ToolKit](https://github.com/EscVM/OIDv4_ToolKit). We are grateful to [NanoCode012](https://github.com/NanoCode012) for providing a way to obtain the labels in a YOLO format ([repo](https://github.com/NanoCode012/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format.git)).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/50915778/119223345-2973a580-baf9-11eb-947d-940af23bbe0c.png">
