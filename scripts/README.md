@@ -1,4 +1,4 @@
-# Custom dataset with data augementation
+# Custom dataset with data augmentation
 If you need to create a custom dataset with data augmentation, you can use this guide to do it easliy. We created a custom dataset with `door` and `handle` classes but you can use the scripts for all classes you want by modifying a few lines that we will explain later.
 
 ## 1. Download OIDv6
