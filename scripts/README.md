@@ -7,12 +7,12 @@ Download the classes that interest you through this [link](https://storage.googl
 ## 2. Set right paths
 Every script has the following section:
 
-#Default folders
+```
+# Default folders
 WORK_ENV="/home/enzo/sdm"
 OIDv6="$WORK_ENV/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format/OID"
 DEST="$WORK_ENV/db"
-
-
+```
 
 
 
