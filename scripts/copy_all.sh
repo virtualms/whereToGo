@@ -8,6 +8,7 @@
 # Default folders
 WORK_ENV="/home/enzo/sdm"
 DEST="$WORK_ENV/db"
+SCRIPTS="$WORK_ENV/datacreator"
 
 # Input check
 if test $# -ne 1 ; then
@@ -49,5 +50,5 @@ done
 ls $DEST/images | cut -d"." -f1 > $WORK_ENV/ids.txt
 
 # Launch the script for copying labels
-cd $WORK_ENV/datacreator
+cd $SCRIPTS
 ./label_creator.sh $1
