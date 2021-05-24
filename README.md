@@ -60,7 +60,7 @@ TorchScript weights are available here:
 * w\o data augmentation: [640](https://drive.google.com/file/d/1-KceBOglxJCBCVGx5MXBpItcteOyo2ZF/view?usp=sharing) 
  
 # Android App
-The Android App implement the purpose discussed previously, using the best weights obtained from the training phase linked before. You can find the repository following this [broken link :(]().
+The Android App implement the purpose discussed previously, using the best weights obtained from the training phase linked before. You can find the repository following this [link](https://github.com/EugeCe/WhereToGo_SistemiDigitali).
 
 # References
 > The image from the first section is an ‘Illustration by Freepik Storyset", from https://storyset.com/ 
