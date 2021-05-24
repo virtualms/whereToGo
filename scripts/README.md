@@ -32,10 +32,10 @@ validation=13
 If you want get a subset for a specific class use this code block as shown:
 ```
 if test $class == "YOUR_CLASS"; then
-			ls -S | tail -n ${!opt} | while read line; do
-				cp -t $DEST/images/ $line
-			done
-		else
+	ls -S | tail -n ${!opt} | while read line; do
+		cp -t $DEST/images/ $line
+	done
+else
 ```
 otherwise use it:
 ```
