@@ -13,7 +13,7 @@ WORK_ENV="/home/enzo/sdm"
 OIDv6="$WORK_ENV/OIDv6_ToolKit_Download_Open_Images_Support_Yolo_Format/OID"
 DEST="$WORK_ENV/db"
 ```
-Change these paths with those in which you are going to work. It is recommended to install in the `WORK_ENV` path a python virtual environment with the Opencv library in the version suggested in the [README.md](https://github.com/EnzoFama/whereToGo/blob/main/README.md) on the homepage.
+Change these paths with those in which you are going to work. It is recommended to install in the `WORK_ENV` path a [python virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) with the Opencv library in the version suggested in the [README.md](https://github.com/EnzoFama/whereToGo/blob/main/README.md).
 
 ## 3. Set your classes
 You may want to use these scripts with classes that are not `door` and `handle`. To make it edit in [copy_all.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/copy_all.sh) and [label_creator.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/label_creator.sh) scripts the following line:
@@ -42,7 +42,8 @@ otherwise use it:
 cp -n * $DEST/images
 ```
 ## 4. Create your dataset
-To create your dataset launch the script [setup.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/setup.sh) as shown below:
+Before running any script sign in to your [virtual envirnoment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/).
+To create your dataset run the script [setup.sh](https://github.com/EnzoFama/whereToGo/blob/main/scripts/setup.sh) as shown below:
 ```
 ./setup.sh [-htgb]
 ```
@@ -51,3 +52,4 @@ You can specify some option that set filters that you want to apply to your data
 * -t: apply binary threshold;
 * -b: apply blur;
 * -g: apply gray scale;
+
