@@ -58,8 +58,8 @@ If you are interested, you can find the network weights in `weights`, or alterna
 Network weights were converted in TorchScript and optimized for the Android App. You can check `Export_to_torchscript_simple` for a simple export or `Model_optimization_torch` for and explicit export and some ways to optimize the model for mobile. Also refer to the latest [Pytorch Mobile Performance Recipe](https://pytorch.org/tutorials/recipes/mobile_perf.html?highlight=mobile).
 
 TorchScript weights are available here:
-* with data augmentation: [320](https://drive.google.com/file/d/1-OEeQ3bsIkjnCDLhiXPziKCdOU_sHCLH/view?usp=sharing)
-* w\o data augmentation: [640](https://drive.google.com/file/d/1-KceBOglxJCBCVGx5MXBpItcteOyo2ZF/view?usp=sharing) 
+* [320](https://drive.google.com/file/d/1-OEeQ3bsIkjnCDLhiXPziKCdOU_sHCLH/view?usp=sharing)
+* [640](https://drive.google.com/file/d/1-KceBOglxJCBCVGx5MXBpItcteOyo2ZF/view?usp=sharing) 
  
 # Android App
 The Android App implement the purpose discussed previously, using the best weights obtained from the training phase linked before. You can find the repository following this [link](https://github.com/EugeCe/WhereToGo_SistemiDigitali).
